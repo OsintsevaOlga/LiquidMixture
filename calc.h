@@ -5,6 +5,8 @@
 #include <QMap>
 #include <QVector>
 #include <QVariant>
+#include <math.h>
+#include <QDebug>
 
 class Calc : public QObject
 {

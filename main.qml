@@ -71,7 +71,7 @@ ApplicationWindow {
     y: 350
     color: "light gray"
     Text {
-    text: caa.result
+    text: caa.result.toFixed(3)
     }
     }
 

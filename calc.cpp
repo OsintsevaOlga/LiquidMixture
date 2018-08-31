@@ -33,8 +33,7 @@ void Calc::calcu(float genV)
         tmp += spis[i].toMap()["volume"].toFloat() * Table[spis[i].toMap()["name"].toString()];
     }
 
-    result = ((tmp / genV) * 100) / 100;
-
+    result = tmp / genV;
 
     resultChanged();
 }
